@@ -68,6 +68,7 @@ $(function () {
 
     $('#hour-15 .description').text(localStorage.getItem('hour-15'))
 
+    $('#hour-16 .description').text(localStorage.getItem('hour-16'))
 
     // TODO: Add code to display the current date in the header of the page.
 
