@@ -37,6 +37,7 @@ $(function () {
 
         // using parse to turn hour into an integer i used slice to remove the first five characters so im left with the id
         var blockHour = parseInt($(this).attr('id').slice(5));
+        console.log(blockHour);
 
         if (blockHour < currentHour) {
             $(this).removeClass('present').removeClass('future').addClass('past');
@@ -63,7 +64,7 @@ $(function () {
 
     $('#hour-13 .description').text(localStorage.getItem('hour-13'))
 
-
+    $('#hour-14 .description').text(localStorage.getItem('hour-14'))
 
     // TODO: Add code to display the current date in the header of the page.
 
