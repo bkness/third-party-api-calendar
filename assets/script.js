@@ -70,6 +70,8 @@ $(function () {
 
     $('#hour-16 .description').text(localStorage.getItem('hour-16'))
 
+    $('#hour-17 .description').text(localStorage.getItem('hour-17'))
+
     // TODO: Add code to display the current date in the header of the page.
 
     // here we are calling on the parent with jquery and .text with dayjs so we can list the current date in the header
